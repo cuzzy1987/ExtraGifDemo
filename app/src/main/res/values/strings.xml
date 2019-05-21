@@ -6,7 +6,11 @@
     <string name="hint_t">天使就是天使</string>
     <string name="hint_d">地理就是地理</string>
     <string name="hint_r">仁和就是仁和</string>
+    <string name="random">随机</string>
+    <string name="test">测试</string>
+    <string name="inner">内部</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chat">ChatActivity</string>
 </resources>

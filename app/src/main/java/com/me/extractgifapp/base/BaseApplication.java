@@ -1,4 +1,4 @@
-package com.me.extractgifapp;
+package com.me.extractgifapp.base;
 
 import android.app.Application;
 

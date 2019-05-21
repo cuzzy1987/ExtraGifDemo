@@ -41,6 +41,10 @@ public abstract class BaseFragment extends Fragment {
 		setContentView(inflater.inflate(resourceId,container,false));
 	}
 
+	public View getContentView(){
+		return contentView;
+	}
+
 	private void setContentView(View contentView) {
 		this.contentView = contentView;
 	}

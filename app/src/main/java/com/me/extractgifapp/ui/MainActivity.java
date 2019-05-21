@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 import com.me.extractgifapp.R;
 import com.me.extractgifapp.base.BaseActivity;
+import com.me.extractgifapp.utils.TimeUtils;
 
 public class MainActivity extends BaseActivity
 		implements BottomNavigationView.OnNavigationItemSelectedListener{
@@ -62,4 +63,19 @@ public class MainActivity extends BaseActivity
 		}
 	}
 
+
+	@Override
+	public void onBackPressed() {
+		TimeUtils.setInterval(2000l, new TimeUtils.DoCallBack() {
+			@Override
+			public void outTimeTodo() {
+				showToast("再按一次退出应用");
+			}
+
+			@Override
+			public void inTimeTodo() {
+				finish();
+			}
+		});
+	}
 }

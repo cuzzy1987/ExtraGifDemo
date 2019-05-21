@@ -11,7 +11,7 @@ import android.widget.Toast;
  */
 public class BaseActivity extends AppCompatActivity {
 
-	private Context mContext;
+	public Context mContext;
 
 	@Override
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
